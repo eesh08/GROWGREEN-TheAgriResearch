@@ -1,1 +1,1 @@
-web: gunicorn VegetableShop.wsgi --log-file -
+web: gunicorn VegetableShop.wsgi:application --log-file -
