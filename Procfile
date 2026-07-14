@@ -1,2 +1,1 @@
-web: gunicorn growgreenfinal.wsgi
-
+web: gunicorn VegetableShop.wsgi:application
