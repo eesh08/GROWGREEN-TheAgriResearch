@@ -1,5 +1,5 @@
 GROWGREEN – Agriculture E-Commerce Platform
-GROWGREEN is a full-stack web application built with Django that enables farmers to purchase fertilizers, pesticides, tools, and other agricultural products online.
+GROWGREEN is a full-stack Web application connecting farmers and cosumers making grocery purchase easier 
 It includes complete product management, order handling, authentication, and an admin dashboard for store operations.
 🚀 Features
 User Features
