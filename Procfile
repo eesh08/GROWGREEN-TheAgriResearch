@@ -1,1 +1,1 @@
-web: gunicorn VegetableShop.wsgi:application
+web: python manage.py migrate --noinput && gunicorn VegetableShop.wsgi:application
