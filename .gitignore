@@ -1,5 +1,52 @@
+# -------------------------
+# Virtual Environments
+# -------------------------
+venv/
+env/
+myenv/
+
+# -------------------------
+# Python
+# -------------------------
 __pycache__/
 *.py[cod]
-venv/
+*.pyo
+*.pyd
+*.so
+
+# -------------------------
+# Django
+# -------------------------
+staticfiles/
+
+# Uncomment if you don't want to track the SQLite database
+# db.sqlite3
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# IDEs
+# -------------------------
 .idea/
+.vscode/
+
+# -------------------------
+# macOS
+# -------------------------
 .DS_Store
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Testing / Caches
+# -------------------------
+.pytest_cache/
+.mypy_cache/
+.coverage
